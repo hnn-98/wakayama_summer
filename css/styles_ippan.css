@@ -2,19 +2,19 @@ html{
   background-color: #fffcf9;
 }
 
-.ado, .kamoku, .money, .gakubu, .syutugan, .news{
+.kamoku, .nittei, .youkou, .bosyu{
  position: relative;
  margin-bottom: 50px;
 }
 
-.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a{
+.kamoku a, .nittei a, .youkou a, .bosyu a{
   font-size: 20px;
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: regular;
   color: #494949;
 }
 
-.ado h3, .kamoku h3, .money h3, .gakubu h3, .syutugan h3{
+.kamoku h3, .nittei h3, .youkou h3, .bosyu h3{
   padding: 0.5em;
   color: #494949;
   background: #ffeddb;
@@ -64,11 +64,11 @@ html{
   text-align: center;
 }
 
-.title_nyuusi{
+.title_ippan{
   position: relative;
 }
 
-.title_nyuusi h2{
+.title_ippan h2{
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: Bold;
   color: #494949;
@@ -82,7 +82,7 @@ html{
   padding: 0;
 }
 
-.title_nyuusi img{
+.title_ippan img{
   width: 100%;
   opacity: 0.3;
 }
@@ -90,42 +90,4 @@ html{
 .title{
   text-align: center;
   margin-bottom: 50px;
-}
-
-.title h2{
-  position: relative;
-  padding: 0.6em;
-  background: #ffeddb;
-  font-family: Hiragino Kaku Gothic ProN;
-  font-weight: Bold;
-  color: #494949;
-}
-
-/*.title h2:after{
-  position: absolute;
-  content: '';
-  top: 100%;
-  left: 50%;
-  border: 15px solid transparent;
-  border-top: 15px solid #ffaf58;
-  width: 0;
-  height: 0;
-}*/
-
-.qa li{
-  display: inline-block;
-  list-style: none;
-  margin: 8px;
-}
-
-.qa{
-  padding: 0;
-}
-
-.qa h3{
-  margin: 0px;
-  font-family: Hiragino Kaku Gothic ProN;
-  font-weight: regular;
-  font-size: 20px;
-  color: #494949;
 }
