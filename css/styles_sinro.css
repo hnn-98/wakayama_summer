@@ -1,5 +1,5 @@
 html{
-  background-color: #ffffff;
+  background-color: #fffcf9;
 }
 
 .top{
@@ -60,12 +60,6 @@ html{
  font-weight: Medium:
 }
 
-.edu img{
-  height: auto;
-  display: inline-block;
-  text-align: center;
-}
-
 .arrow{
     position: relative;
     display: inline-block;
@@ -124,7 +118,6 @@ html{
   list-style: none;
   margin: 8px;
 }
-
 
 .daigaku{
   background: #ffeddb;
