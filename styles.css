@@ -89,7 +89,7 @@ html{
 
 .title{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .title h2{
@@ -99,6 +99,20 @@ html{
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: Bold;
   color: #494949;
+}
+
+.title_oc{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title_oc h2{
+  position: relative;
+  padding: 0.6em;
+  background: #f18b00;
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: Bold;
+  color: #ffffff;
 }
 
 /*.title h2:after{
