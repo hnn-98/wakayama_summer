@@ -2,12 +2,16 @@ html{
   background-color: #fffcf9;
 }
 
+body{
+  margin: 0;
+}
+
 .ado, .kamoku, .money, .gakubu, .syutugan, .news, .siryou, .kako{
  position: relative;
  margin-bottom: 50px;
 }
 
-.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a, .siryou a, .kako a, .op a{
+.ado a, .kamoku a, .money a, .gakubu a, .syutugan a, .news a, .siryou a, .kako a{
   font-size: 20px;
   font-family: Hiragino Kaku Gothic ProN;
   font-weight: regular;
@@ -98,7 +102,7 @@ html{
 
 .title{
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 
 .title h2{
@@ -110,22 +114,10 @@ html{
   color: #494949;
 }
 
-
-
-.title_oc h2{
-  position: relative;
-  padding: 0.6em;
-  background: #f18b00;
-  font-family: Hiragino Kaku Gothic ProN;
-  font-weight: Bold;
-  color: #ffffff;
-}
-
-
 .qa li{
   display: inline-block;
   list-style: none;
-  margin: 10px;
+  margin: 8px;
 }
 
 .qa{
@@ -139,7 +131,6 @@ html{
   font-size: 20px;
   color: #494949;
 }
-
 
 .daigaku{
   background: #f18b00;
@@ -190,6 +181,14 @@ html{
   margin-bottom: 20px;
 }
 
+/*.title h2{
+  position: relative;
+  padding: 0.6em;
+  background: #ffeddb;
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: Bold;
+  color: #494949;
+}*/
 
 .title h4{
   font-family: Hiragino Kaku Gothic ProN;
@@ -197,6 +196,12 @@ html{
   color: #494949;
 }
 
+.title_gakubu{
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  margin-top: 0;
+}
 
 .title li{
   display: inline-block;
